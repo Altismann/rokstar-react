@@ -4,30 +4,39 @@ import SectionTitle from "./SectionTitle";
 
 const Contact = () => {
     return (
-        <section className="py-[100px]" id="contact">
-            <div className="container">
-                <SectionTitle
-                    title="Kontakt"
-                />
-
-                <div className="grid grid-cols-1 md:grid-cols-12">
-                    <div className="col-span-5">
-                        <div className="font-medium space-y-2">
-                            <address className="not-italic">
-                                Enlundavägen 46<br/>
-                                Sverige
-                            </address>
-                            <p>altismann@pm.me</p>
-                            <p>+(46) 0702312173</p>
-                        </div>
-
-                        
-                    </div>
-
-
-                </div>
-            </div>
-        </section>
+         <div className="bg-black flex flex-col-reverse px-44 justify-between pt-0 pb-0 lg:flex-row bg-top items-center">
+          <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row text-center">
+            <li>
+              <a
+                href="https://anderss-stellar-site.webflow.io"
+                className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+              >
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://nextjs.org/"
+                className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+              >
+                Byggd med NextJS
+              </a>
+            </li>
+          </ul>
+          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
+          <p className="text-center font-medium text-white">
+            Tel: 070-2312173
+          </p>
+          </ul>
+            <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row font-semibold">
+            <a
+              href="mailto:altismann@protonmail.com"
+              className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
+            >
+              altismann@protonmail.com
+            </a>
+          </ul>
+           </div>
     );
 };
 
