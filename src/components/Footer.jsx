@@ -5,14 +5,14 @@ import {IoIosArrowUp} from "react-icons/io";
 
 const Footer = () => {
     return (
-        <footer className="bg-white pt-10 md:pt-14 lg:pt-5 pb-5 relative">
+        <footer className="bg-white pt-10 md:pt-14 lg:pt-16 pb-16 relative">
             <div className="container">
-                <div className="text-center lg:text-left lg:flex justify-between items-center">
-                    <Logo variant="dark"/>
+                <div className="font-bold text-center lg:text-center">
+                   {/* <Logo variant="dark"/>
 
                     {/* Copyright */}
                     <p>
-                        &copy; Av Sitecraft {new Date().getFullYear()}, 
+                        &copy; Av Sitecraft {new Date().getFullYear()}
                     </p>
                 </div>
             </div>
