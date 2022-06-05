@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 
 const Contact = () => {
     return (
-         <div className="bg-black flex flex-col-reverse px-44 justify-between pt-4 pb-4 lg:flex-row bg-top items-center">
+         <div className="bg-black flex flex-col-reverse px-44 justify-between pt-4 pb-4 lg:flex-row bg-top items-center border-t border-stone-900">
           <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row text-center">
             <li>
               <a
