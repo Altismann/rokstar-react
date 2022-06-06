@@ -18,7 +18,34 @@ const HeroArea = () => {
                     Sidorna byggs med Wordpress och NextJS och vi använder oss av nya och stabila hostinglösningar. Då vi endast gör sidor som hobbyverksamhet kostar en färdig sida 
                     mellan 2000-4000kr och vi har ingen support eller egen lagring av data.
                     </p>
-                    
+                    <nav className="flex-col flex-grow">
+            <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <li>
+                <a
+                  href="/"
+                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
+                >
+                  EXEMPEL
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Skå Burgare
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/"
+                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Bromma Bilar
+                </a>
+              </li>
+            </ul>
+          </nav>
                 </div>
             </div>
 
