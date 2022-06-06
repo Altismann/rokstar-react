@@ -29,22 +29,19 @@ function Home() {
             <Contact />
             <Footer />
 
-        </div><div className="text-black">
+        </div>
+        <div className="text-black">
                 <NextSeo
-                    title="Home: Sitecraft"
+                    title="Sitecraft"
                     description="Enklare Hemsidor"
                     canonical="https://sitecraft.se"
                     openGraph={{
                         url: "https://sitecraft.se",
                     }} />
-                <Head>
-                    <title>Sitecraft</title>
-                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <Header />
-                <Main />
-                <Footer />
+                      
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/favicon.ico" />  
+
             </div></>
 
 

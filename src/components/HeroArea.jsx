@@ -19,47 +19,54 @@ const HeroArea = () => {
                     mellan 2000-4000kr och vi har ingen support eller egen lagring av data.
                     </p>
                     <nav className="flex-col flex-grow">
+
             <ul className="flex flex-grow justify-end flex-wrap items-center">
             <li>
-                <a
-                  href="/"
-                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
+                <p
+                  className="font-semibold text-white px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
                 >
                   Meny
-                </a>
+                </p>
               </li>
             <li>
+              <h3>
                 <a
                   href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Alvik Cykelcenter
                 </a>
+                </h3>
               </li>
               <li>
+              <h3>
                 <a
                   href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Ekerö Färg
                 </a>
+                </h3>
               </li>
-
               <li>
+              <h3>
                 <a
                   href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skå Burgare
                 </a>
+                </h3>
               </li>
               <li>
+              <h3>
                 <a
                   href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Bromma Bilar
                 </a>
+                </h3>
               </li>
             </ul>
           </nav>
