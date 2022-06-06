@@ -23,15 +23,15 @@ const HeroArea = () => {
             <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
+                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
                 >
-                  EXEMPEL
+                  Meny
                 </a>
               </li>
               <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skå Burgare
                 </a>
@@ -39,7 +39,7 @@ const HeroArea = () => {
               <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Bromma Bilar
                 </a>
