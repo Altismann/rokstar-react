@@ -21,15 +21,15 @@ const Header = () => {
 
                         {/* Mobile Menu Icon */}
                         <span className="sm:hidden">
-                            <Hamburger toggled={isMobileNavShow} toggle={setIsMobileNavShow} size={25} color="white"/>
+                           
                         </span>
                     </div>
 
                     {/* Desktop Navbar */}
-                    <Navbar/>
+                   
 
                     {/* Mobile Navbar */}
-                   <MobileNavbar className={!isMobileNavShow ? "mt-0 h-0":"mt-3 h-[130px]"}/>
+                
                 </div>
             </div>
 

@@ -1,22 +1,27 @@
 [
   {
     "id": 1,
-    "name": "Home",
-    "href": "hero"
+    "name": "Alvik Cykelcenter",
+    "href": "https://sitecraft.flywheelsites.com/alvikcykelcenter/"
   },
   {
     "id": 2,
-    "name": "About",
-    "href": "https://sitecraft.se"
+    "name": "Ekerö Färg",
+    "href": "https://sitecraft.flywheelsites.com/ekerofarg/"
   },
   {
     "id": 3,
-    "name": "Portfolio",
-    "href": "portfolio"
+    "name": "Skå Burgare",
+    "href": "https://sitecraft.flywheelsites.com/skaburgare/"
   },
   {
     "id": 4,
-    "name": "Contact",
-    "href": "contact"
+    "name": "Bromma Bilar",
+    "href": "https://sitecraft.flywheelsites.com/brommabilar/"
+  },
+  {
+    "id": 4,
+    "name": "Vällingby Hundcenter",
+    "href": "https://sitecraft.flywheelsites.com/vallingbyhundcenter/"
   }
 ]

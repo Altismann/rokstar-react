@@ -9,7 +9,7 @@ const Contact = () => {
             <li>
               <a
                 href="https://anderss-stellar-site.webflow.io"
-                className="text-xs text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="text-xs text-white hover:text-gray-400 marker:transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
               >
                 Portfolio
               </a>
@@ -17,26 +17,49 @@ const Contact = () => {
             <li>
               <a
                 href="https://nextjs.org/"
-                className="text-xs text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+                className="text-xs text-white hover:text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
               >
-                Byggd med NextJS
+                NextJS
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://tailwindcss.com/"
+                className="text-xs text-white hover:text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+              >
+                Tailwind css
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://sitecraft.flywheelsites.com/"
+                className="text-xs text-white hover:text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold"
+              >
+                Kontakt
               </a>
             </li>
           </ul>
-          <ul className="text-xs flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-          <p className="text-center font-medium text-white">
-            Tel: 070-2312173
-          </p>
-          </ul>
-            <ul className="text-xs flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row font-semibold">
-            <a
-              href="mailto:altismann@protonmail.com"
-              className="text-md text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
+          <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row text-center">
+            <p
+              className="text-xs text-white hover:text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold mb-4"
             >
-              altismann@protonmail.com
-            </a>
+              Enlundavägen 46 17975 Skå
+            </p>
           </ul>
            </div>
+
+             /*  
+           <SocialMedia className="mt-6 md:mt-10"/>
+               </div>
+
+               <div className="col-span-7 mt-10 md:mt-0">
+                   <ContactForm/>
+               </div>
+           </div>
+       </div>
+   </section>
+    */
+
     );
 };
 

@@ -3,7 +3,7 @@ import navbar from "../data/navbar.json";
 
 const MobileNavbar = ({className}) => {
     return (
-        <nav className={`bg-black overflow-hidden duration-300 sm:hidden ${className ?? ""}`}>
+        <nav className={`bg-black overflow-hidden duration-300 sm:hidden${className ?? ""}`}>
             <ul className="nav p-2">
                 {navbar.map(item => (
                     <li key={item.id}>

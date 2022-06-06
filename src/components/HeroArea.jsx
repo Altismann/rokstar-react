@@ -7,7 +7,7 @@ const HeroArea = () => {
         <section
             id="hero"
             style={{backgroundImage: `url(${heroBg})`}}
-            className="relative bg-cover bg-no-repeat bg-center-top ss:h-[400px] sm:h-[450px] md:h-[500px] lg:h-[600px] xl:h-[800px] flex items-center"
+            className="relative bg-cover bg-no-repeat bg-center-top ss:h-[700px] sm:h-[700px] md:h-[750px] lg:h-[850px] xl:h-[950px] flex items-center"
         >
             <div className="container">
                 <div className="font-light">
@@ -23,15 +23,32 @@ const HeroArea = () => {
             <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
+                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out border-l border-b border-white"
                 >
                   Meny
+                </a>
+              </li>
+            <li>
+                <a
+                  href="/"
+                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Alvik Cykelcenter
                 </a>
               </li>
               <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Ekerö Färg
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/"
+                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skå Burgare
                 </a>
@@ -39,7 +56,7 @@ const HeroArea = () => {
               <li>
                 <a
                   href="/"
-                  className="font-semibold text-white hover:text-gray-600 px-5 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Bromma Bilar
                 </a>
