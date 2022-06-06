@@ -7,29 +7,48 @@ import HeroArea from "../components/HeroArea";
 import Services from "../components/Services";
 import Preloader from "../components/Preloader";
 import Portfolios from "../components/Portfolios";
+import { NextSeo } from "next-seo";
 
-const Home = () => {
+function Home() {
     const [preloaded, setPreloaded] = useState(false);
 
     useEffect(() => {
         setTimeout(() => {
             setPreloaded(true);
-        }, 800)
+        }, 800);
     }, []);
 
     return (
-        <div className="rokstar">
-            <Preloader preloaded={preloaded}/>
-            <Header/>
+        <><div className="rokstar">
+            <Preloader preloaded={preloaded} />
+            <Header />
             {/*<AboutMe/>*/}
-            <HeroArea/>
+            <HeroArea />
             {/*<Services/>*/}
             {/*<Portfolios/>*/}
-            <Contact/>
-            <Footer/>
-            
-        </div>
+            <Contact />
+            <Footer />
+
+        </div><div className="text-black">
+                <NextSeo
+                    title="Home: Sitecraft"
+                    description="Enklare Hemsidor"
+                    canonical="https://sitecraft.se"
+                    openGraph={{
+                        url: "https://sitecraft.se",
+                    }} />
+                <Head>
+                    <title>Sitecraft</title>
+                    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+                <Header />
+                <Main />
+                <Footer />
+            </div></>
+
+
     );
-};
+}
 
 export default Home;
