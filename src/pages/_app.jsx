@@ -1,14 +1,16 @@
 import Head from "next/head";
 import '../styles/globals.css';
-const Rokstar = ({Component, pageProps}) => {
-    return (
-        <>
-            <Head>
-        
-            </Head>
-            <Component {...pageProps} />
-        </>
-    )
-}
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
-export default Rokstar
+
+    const App = ({ Component, pageProps }) => {
+        return (
+          <>
+            <GoogleAnalytics />
+            <Component {...pageProps} />
+          </>
+        );
+      };
+
+
+      export default App;
