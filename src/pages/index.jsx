@@ -40,11 +40,11 @@ function Home() {
                     }} />
 
                       <Head>
-                      <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-224266938-1"></script>
+                     
+                      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-224266938-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments)};&rbrace;
   gtag('js', new Date());
 
   gtag('config', 'UA-224266938-1');
