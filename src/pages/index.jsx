@@ -32,7 +32,7 @@ function Home() {
         </div>
         <div className="text-black">
                 <NextSeo
-                    title="Sitecraft"
+                    title="Home: Sitecraft"
                     description="Enklare Hemsidor"
                     canonical="https://sitecraft.se"
                     openGraph={{

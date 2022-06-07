@@ -15,8 +15,8 @@ const HeroArea = () => {
                     <h2 className="text-white font-light text-md sm:text-lg tracking-4 mt-2 sm:mt-4">Enklare Hemsidor</h2>
                     <p className="text-white font-light text-3xs ss:text-[11px] sm:text-[12px] md:text-[13px] tracking-1 leading-4">
                     Sitecraft är en webbyrå som bygger sidor som är snabba och minimalistiska. Dom har stöd för viktiga funktioner och sökoptimeringstekniker SEO. Sidorna byggs
-            med Wordpress och NextJS och vi använder oss av moderna och stabila hostinglösningar. Då vi endast gör sidor 
-            som hobbyverksamhet kostar en färdig sida mellan 2000-4000kr och vi har ingen support eller egen lagring av data.
+            med Wordpress och NextJS och vi använder oss av moderna och stabila hostinglösningar. Då vi endast gör arbeten 
+            som hobbyverksamhet kostar en färdig sida endest 2000-4000kr. Vi erbjuder då heller ingen support eller lagring av data.
                     </p>
                     <nav className="flex-col flex-grow">
 
