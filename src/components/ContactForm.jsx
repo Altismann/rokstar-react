@@ -82,7 +82,7 @@ const ContactForm = ({className}) => {
                 <button className="bg-dark text-white text-[12px] px-6 py-3 group" type="submit" disabled={isSubmitting}>
                     {!isSubmitting ? (
                         <>
-                            SEND MESSAGE
+                            SKICKA
                             <MdArrowRightAlt className="inline text-xl ml-1 duration-400 group-hover:translate-x-2"/>
                         </>
                     ) : (
