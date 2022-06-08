@@ -31,7 +31,7 @@ const HeroArea = () => {
             <li>
               <h3>
                 <a
-                  href="https://sitecraft.flywheelsites.com/alvikcykelcenter/"
+                  href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Alvik Cykelcenter
@@ -41,7 +41,7 @@ const HeroArea = () => {
               <li>
               <h3>
                 <a
-                  href="https://sitecraft.flywheelsites.com/ekerofarg/"
+                  href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Ekerö Färg
@@ -51,7 +51,7 @@ const HeroArea = () => {
               <li>
               <h3>
                 <a
-                  href="https://sitecraft.flywheelsites.com/skaburgare/"
+                  href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Skå Burgare
@@ -61,7 +61,7 @@ const HeroArea = () => {
               <li>
               <h3>
                 <a
-                  href="https://sitecraft.flywheelsites.com/brommabilar/"
+                  href="/"
                   className="font-semibold text-white hover:text-gray-300 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Bromma Bilar
