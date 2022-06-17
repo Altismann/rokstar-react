@@ -11,7 +11,7 @@ const HeroArea = () => {
         >
             <div className="container md:mb-44 lg:mb-44 xl:mb-44">
                 <div className="font-light">
-                    <h1 className="text-white font-light text-3xl sm:text-[45px] md:text-[55px] leading-none">SITECRAFT</h1>
+                    <h1 className="text-white font-light text-3xl sm:text-[45px] md:text-[55px] leading-none text-transparent bg-clip-text bg-gradient-to-r from-rose-300 to-orange-700">SITECRAFT</h1>
                     <h2 className="text-white font-light text-md sm:text-lg tracking-4 mt-2 sm:mt-4">Enklare Hemsidor</h2>
                     <p className="text-white font-light ss:text-[11px] sm:text-[12px] md:text-[13px] tracking-1 leading-4">
                     Sitecraft är en webbyrå som bygger sidor som är snabba och minimalistiska. Dom har stöd för viktiga funktioner och sökoptimeringstekniker SEO. Sidorna byggs
