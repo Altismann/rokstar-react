@@ -39,9 +39,9 @@ const Contact = () => {
               </a>
             </li>
           </ul>
-          <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row text-center">
+          <ul className="text-center ss:mb-2">
             <p
-              className="text-xs text-white hover:text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold mb-4"
+              className="text-xs text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold mt-2"
             >
               Enlundavägen 46 17975 Skå
             </p>
