@@ -49,6 +49,7 @@ const Contact = () => {
            </div>
 
              /*  
+
            <SocialMedia className="mt-6 md:mt-10"/>
                </div>
 
@@ -58,6 +59,7 @@ const Contact = () => {
            </div>
        </div>
    </section>
+   
     */
 
     );
