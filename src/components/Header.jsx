@@ -11,11 +11,11 @@ const Header = () => {
     const [isMobileNavShow, setIsMobileNavShow] = useState(false);
 
     return (
-        <header className={`fixed bg-transparent left-0 top-0 w-full z-30 duration-400 ${position >= 200 ? "py-2" : "py-2 md:py-5"}`}>
+        <header className="fixed bg-transparent z-30 py-2 md:py-5">
 
             <div className="container">
                 <div className="sm:flex items-center justify-between">
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between pt-8 pl-24">
                         {/* Logo */}
                         <Logo/>
 
