@@ -5,7 +5,7 @@ import Script from "next/script";
 const Rokstar = ({Component, pageProps}) => {
     return (
         <>
-            
+            <Head>
   <Script id="google-analytics" strategy="lazyOnload">
   src={"https://www.googletagmanager.com/gtag/js?id=UA-224266938-1"}
   {`
@@ -15,7 +15,7 @@ const Rokstar = ({Component, pageProps}) => {
   gtag('config', 'UA-224266938-1');
   `}
   </Script>
-            
+            </Head>
             <Component {...pageProps} />
         </>
     )
