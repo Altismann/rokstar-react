@@ -6,14 +6,20 @@ const Rokstar = ({Component, pageProps}) => {
     return (
         <>
             <Head>
+            <Script
+    strategy="lazyOnload"
+    src={"https://www.googletagmanager.com/gtag/js?id=G-MZEMGBYQZR"}
+  />
+
   <Script id="google-analytics" strategy="lazyOnload">
-  src={"https://www.googletagmanager.com/gtag/js?id=UA-224266938-1"}
-  {`
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-224266938-1');
-  `}
+    {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MZEMGBYQZR');
+              page_path: window.location.pathname,
+            });
+                `}
   </Script>
             </Head>
             <Component {...pageProps} />
