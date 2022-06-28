@@ -1,11 +1,10 @@
-import Head from "next/head";
 import '../styles/globals.css';
 import Script from "next/script";
 
 const Rokstar = ({Component, pageProps}) => {
     return (
         <>
-            <Head>
+          
             <Script
     strategy="lazyOnload"
     src={"https://www.googletagmanager.com/gtag/js?id=G-MZEMGBYQZR"}
@@ -21,7 +20,7 @@ const Rokstar = ({Component, pageProps}) => {
             });
                 `}
   </Script>
-            </Head>
+            
             <Component {...pageProps} />
         </>
     )
